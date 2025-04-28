@@ -1,4 +1,4 @@
-import { ArrowBigUpDashIcon, Calendar, ChevronDown, ChevronUp, HelpCircle, Home, Inbox, Plus, Search, Settings, ShieldHalf } from "lucide-react"
+import { ArrowBigUpDashIcon, Calendar, ChevronDown, ChevronUp, HelpCircle, Home, Inbox, Plus, Projector, Search, Settings, ShieldHalf, Upload, View } from "lucide-react"
 
 import {
     Sidebar,
@@ -101,14 +101,18 @@ function AppSidebar() {
                         <SidebarMenu>
                             <SidebarMenuItem>
                                 <SidebarMenuButton asChild>
-                                    <Link href="/">View Project</Link>
+                                    <Link href="/">
+                                        <View /> View Project
+                                    </Link>
                                 </SidebarMenuButton>
                             </SidebarMenuItem>
                         </SidebarMenu>
                         <SidebarMenu>
                             <SidebarMenuItem>
                                 <SidebarMenuButton asChild>
-                                    <Link href="/">Update Project</Link>
+                                    <Link href="/">
+                                        <Upload /> Update Project
+                                    </Link>
                                 </SidebarMenuButton>
                             </SidebarMenuItem>
                         </SidebarMenu>
@@ -154,7 +158,9 @@ function AppSidebar() {
                         <SidebarMenu>
                             <SidebarMenuItem>
                                 <SidebarMenuButton asChild>
-                                    <Link href="/">View Project</Link>
+                                    <Link href="/">
+                                        <View /> View Project
+                                    </Link>
                                 </SidebarMenuButton>
                                 <SidebarMenuSub>
                                     <SidebarMenuSubItem>
