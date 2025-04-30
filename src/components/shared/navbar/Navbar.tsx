@@ -19,7 +19,7 @@ import { Button } from '@/components/ui/button'
 const Navbar = () => {
     // const { toggleSidebar } = useSidebar()
     return (
-        <div className='flex items-center justify-between p-3'>
+        <div className='flex items-center justify-between p-3 sticky top-0 bg-background z-10'>
             {/* <Button variant="outline" onClick={toggleSidebar}>Side</Button> */}
             <SidebarTrigger />
             <div className='flex items-center gap-4'>
