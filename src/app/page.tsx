@@ -7,23 +7,23 @@ import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 p-2">
-      <div className="bg-primary-foreground p-4 rounded-md xl:col-span-2">
+    <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-4 p-2">
+      <div className="bg-gray-100 dark:bg-primary-foreground p-4 rounded-md xl:col-span-2">
         <AppBarChart />
       </div>
-      <div className="bg-primary-foreground p-4 rounded-md">
+      <div className="bg-gray-100 dark:bg-primary-foreground py-4 px-2 rounded-md">
         <CardList title="latestTransactions" />
       </div>
-      <div className="bg-primary-foreground p-4 rounded-md">
+      <div className="bg-gray-100 dark:bg-primary-foreground p-4 rounded-md">
         <AppPieChart />
       </div>
-      <div className="bg-primary-foreground p-4 rounded-md">
+      <div className="bg-gray-100 dark:bg-primary-foreground  p-4 rounded-md">
         <TodoList />
       </div>
-      <div className="bg-primary-foreground p-4 rounded-md xl:col-span-2">
+      <div className="bg-gray-100 dark:bg-primary-foreground p-4 rounded-md xl:col-span-2">
         <AppAreaChart />
       </div>
-      <div className="bg-primary-foreground p-4 rounded-md">
+      <div className="bg-gray-100 dark:bg-primary-foreground py-4 px-2 rounded-md">
         <CardList title="popularContent" />
       </div>
     </div>

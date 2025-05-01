@@ -102,8 +102,8 @@ const CardList = ({ title }: { title: "latestTransactions" | "popularContent" })
                                 <Image src={i.image} alt='' fill className='object-cover' />
                             </div>
                             <CardContent className='p-0'>
-                                <CardTitle className='text-xs font-medium'>{i.title}</CardTitle>
-                                <Badge variant="secondary" className='text-xs'>{i.badge}</Badge>
+                                <CardTitle className='text-[10px] font-medium'>{i.title}</CardTitle>
+                                <Badge variant="secondary" className='text-[10px]'>{i.badge}</Badge>
                             </CardContent>
                         </div>
                         <CardFooter className='p-0 text-sm'>
